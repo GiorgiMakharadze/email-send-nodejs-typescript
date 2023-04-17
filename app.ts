@@ -1,5 +1,6 @@
 import express, { Request, Response } from "express";
 import "express-async-errors";
+import "dotenv/config";
 import morgan from "morgan";
 import { notFound } from "./api/middleware/not-found";
 import { errorHandlerMiddleware } from "./api/middleware/error-handler";
